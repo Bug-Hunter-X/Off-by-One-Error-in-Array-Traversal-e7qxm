@@ -1,0 +1,2 @@
+# Off-by-One Error in Java
+This repository demonstrates a common off-by-one error in Java, where a loop attempts to access an array element beyond its valid index. The error occurs when the loop condition `i <= arr.length` is used, instead of `i < arr.length`. This leads to an `ArrayIndexOutOfBoundsException` at runtime.
